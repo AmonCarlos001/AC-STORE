@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>AC Store. Step By Step.</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="img/Logo AC.jpg" alt="Logo AC Store">
+    </div>
+    
+    <div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="masculino.html">Masculino</a></li>
+            <li><a href="feminino.html">Feminino</a></li>
+            <li><a href="infantil.html">Infantil</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+    </div>
+
+      <div class="pesquisa"> <!-- Campo da barra de pesquisa -->
+      <input type="text" id="campo-busca" placeholder="Buscar produtos...">
+
+      <button id="botao-buscar"> <!-- Botão para pesquisar-->
+        Pesquisar
+        <img src="img/Fa-Team-Fontawesome-FontAwesome-Magnifying-Glass.512.png" alt="Lupa" width="9px">
+      </button>
+    </div>
+  </header>
+
+    <div class="botao-voltar">
+      <a href="index.html">
+      <img src="img/Icons8-Ios7-Arrows-Back.512.png" alt="Voltar" width="15px">
+      Voltar
+      </a>
+    </div>
+    <hr>
+
+    <div class="nav-homem">
+      <h1>Feminino</h1>
+    </div>
+    <hr>
+  
+
+    <div id="card-marca">
+      <button data-marca="adidas" class="marca">
+        <p><b>Adidas</b></p>
+        <img src="img/adidas.jpg" alt="Adidas">
+     </button>
+
+      <button data-marca="nike" class="marca">
+        <p><b>Nike</b></p>
+        <img src="img/nike.png" alt="Nike">
+      </button>
+
+      <button data-marca="puma" class="marca">
+        <p><b>Puma</b></p>
+        <img src="img/puma.png" alt="Puma">
+      </button>
+  </div>
+    <hr><br>
+
+    <div class="produtos">
+
+        <article class="produto nike" data-nome="nike dunk low Cacao">
+          <img src="img/tenis33.png" alt="Tenis Modelo 33">
+              <h3>Tênis Nike Dunk Low Cacao Wow</h3>
+              <p><b style="color: red;">R$ 854,99 no Pix</b><br><s>R$ 899,99</s> 5% off <br>ou <b style="color: red;">R$ 899,99</b> em até 10x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+        </article>
+
+         <article class="produto nike" data-nome="nike dunk low panda">
+            <img src="img/tenis34.png" alt="Tenis Modelo 34">
+              <h3>Tênis Nike Dunk Low Panda Feminino</h3>
+              <p><b style="color: red;">R$ 854,99 no Pix</b><br><s>R$ 899,99</s> 5% off <br>ou <b style="color: red;">R$ 899,99</b> em até 10x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+         </article>
+
+          <article class="produto nike" data-nome="camiseta nike preta">
+            <img src="img/camisa13.png" alt="Camisa Modelo 13">
+              <h3>Camiseta Nike Sportswear Essentials Feminina</h3>
+              <p><b style="color: red;">R$ 75,99 no Pix</b><br><s>R$ 129,99</s> 37% off <br>ou <b style="color: red;">R$ 119,99</b> em até 1x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+          </article>
+
+          <article class="produto nike" data-nome="top nike preto">
+            <img src="img/top1.png" alt="TOP 1">
+              <h3>Top Nike Swoosh Feminino</h3>
+              <p><b style="color: red;">R$ 189,99 no Pix</b><br><s>R$ 229,99</s> 17% off <br>ou <b style="color: red;">R$ 199,99</b> em até 2x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+          </article>
+
+          <article class="produto nike" data-nome="shorts nike preto">
+            <img src="img/top2.png" alt=" top 2">
+              <h3>Shorts Nike One Feminino</h3>
+              <p><b style="color: red;">R$ 142,49 no Pix</b><br><s>R$ 229,99</s> 38% off <br>ou <b style="color: red;">R$ 149,99</b> em até 1x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+          </article>
+
+          <article class="produto nike" data-nome="tenis nike air force 1">
+            <img src="img/tenis35.png" alt=" Tenis 35">
+              <h3>Tênis Nike Air Force 1 '07 Essential Feminino</h3>
+              <p><b style="color: red;">R$ 759,99 no Pix</b><br><s>R$ 799,99</s> 5% off <br>ou <b style="color: red;">R$ 799,99</b> em até 10x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+          </article>
+
+          <article class="produto nike" data-nome="tenis nike court vision">
+            <img src="img/tenis36.png" alt="Tenis 36">
+              <h3>Tênis Nike Court Vision Low Next Nature Feminino</h3>
+              <p><b style="color: red;">R$ 399,99 no Pix</b><br><s>R$ 599,99</s> 33% off <br>ou <b style="color: red;">R$ 421,04</b> em até 5x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+          </article>
+      
+          <article class="produto adidas" data-nome="tenis adidas samba og">
+            <img src="img/tenis37.png" alt="Tenis 37">
+              <h3>Tênis Adidas Samba OG</h3>
+              <p><b style="color: red;">R$ 699,99 no Pix</b><br>ou <b style="color: red;">R$ 799,99</b> em até 10x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+          </article>
+
+           <article class="produto adidas" data-nome="jaqueta adidas cropped">
+            <img src="img/jaqueta1.png" alt="jaqueta 1">
+              <h3>Jaqueta Adidas Cropped Adicolor Teamgeist</h3>
+              <p><b style="color: red;">R$ 399,99 no Pix</b><br>ou <b style="color: red;">R$ 499,99</b> em até 5x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+           </article>
+      
+          <article class="produto adidas" data-nome="tenis adidas gazelle bold">
+             <img src="img/tenis38.png" alt=" Tenis 38">
+              <h3>Tenis Adidas Gazelle Bold</h3>
+              <p><b style="color: red;">R$ 549,99 no Pix</b><br> ou <b style="color: red;">R$ 599,99</b> em até 5x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+          </article>
+
+          <article class="produto adidas" data-nome="tenis adidas forum bold">
+            <img src="img/tenis39.png" alt=" Tenis 39">
+              <h3>Tênis Adidas Forum Bold</h3>
+              <p><b style="color: red;">R$ 799,99 no Pix</b><br> ou <b style="color: red;">R$ 849,99</b> em até 5x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+          </article>
+
+         <article class="produto adidas" data-nome="tenis adidas corrida">
+            <img src="img/tenis40.png" alt=" Tenis 40">
+              <h3>Tênis Adidas Corrida Questar 3</h3>
+              <p><b style="color: red;">R$ 599,99 no Pix</b><br> ou <b style="color: red;">R$ 649,99</b> em até 5x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+          </article>
+
+        <article class="produto puma" data-nome="tenis puma suede XL">
+            <img src="img/tenis41.png" alt=" Tenis 41">
+              <h3>Tênis Puma Suede XL</h3>
+              <p><b style="color: red;">R$ 599,99</b><br> em até 7x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+         </article>
+
+        <article class="produto puma" data-nome="tenis puma carina street">
+            <img src="img/tenis42.png" alt=" Tenis 42">
+              <h3>Tênis Puma Carina Street BDP</h3>
+              <p><b style="color: red;">R$ 359,99</b><br> em até 5x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+        </article>
+
+         <article class="produto puma" data-nome="tenis puma RS-X">
+            <img src="img/tenis43.png" alt=" Tenis 43">
+              <h3>Tênis Puma RS-X Alternate Route</h3>
+              <p><b style="color: red;">R$ 599,99</b><br> em até 7x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+          </article>
+            
+         <article class="produto puma" data-nome="polo puma harry POTTER">
+            <img src="img/camisa14.png" alt=" Camisa 14">
+              <h3>Polo PUMA X HARRY POTTER Feminina</h3>
+              <p><b style="color: red;">R$ 399,99</b><br> em até 5x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+         </article>
+
+         <article class="produto puma" data-nome="colete puma yona">
+            <img src="img/camisa15.png" alt=" Camisa 15">
+              <h3>Colete Puma YONA Reversible Feminino</h3>
+              <p><b style="color: red;">R$ 679,99</b><br> em até 10x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+          </article>
+
+        <article class="produto puma" data-nome="meia sapatilha puma">
+            <img src="img/meia3.png" alt=" Meia 3">
+              <h3>Meia Sapatilha Puma Feminina (3 pares)</h3>
+              <p><b style="color: red;">R$ 39,99</b><br> em até 3x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+        </article>
+
+        <article class="produto puma" data-nome="tenis puma basquete scoot zeros II">
+            <img src="img/tenis44.png" alt=" Tenis 44">
+              <h3>Tênis Puma de Basquete Scoot Zeros II Purple Lab Unissex</h3>
+              <p><b style="color: red;">R$ 899,99 no Pix</b><br><s>R$ 1.999,99</s> <br>ou <b style="color: red;">R$ 1.199,99</b> em até 10x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+         </article>
+
+         <article class="produto puma" data-nome="tenis puma de treino">
+            <img src="img/tenis45.png" alt=" Tenis 45">
+              <h3>Tênis Puma de Treino Lex Wn's BDP Feminino</h3>
+              <p><b style="color: red;">R$ 499,99 no Pix</b><br><s>R$ 699,99</s> <br>ou <b style="color: red;">R$ 699,99</b> em até 10x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+         </article>
+
+        <article class="produto puma" data-nome="blusa puma Half-Zip">
+            <img src="img/moletom1.png" alt=" Moletom 1">
+              <h3>Blusa Puma Half-Zip SEASONS Trail Running Feminino</h3>
+              <p><b style="color: red;">R$ 269,99 no Pix</b><br><s>R$ 529,99</s> <br>ou <b style="color: red;">R$ 569,99</b> em até 7x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+         </article>
+
+       <article class="produto nike" data-nome="tenis nike court vision">
+            <img src="img/tenis46.png" alt=" Tenis 46">
+              <h3>Tênis Nike Court Vision Low Next Nature Feminino</h3>
+              <p><b style="color: red;">R$ 379,99 no Pix</b><br><s>R$ 599,99</s> <br>ou <b style="color: red;">R$ 399,99</b> em até 5x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+        </article>
+
+       <article class="produto nike" data-nome="tenis nike air max">
+            <img src="img/tenis47.png" alt=" Tenis 47">
+              <h3>Tênis Nike Air Max SC Feminino</h3>
+              <p><b style="color: red;">R$ 389,49 no Pix</b><br><s>R$ 699,99</s> <br>ou <b style="color: red;">R$ 409,99</b> em até 5x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+       </article>
+
+       <article class="produto nike" data-nome="tenis nike free matcon">
+            <img src="img/tenis48.png" alt=" Tenis 48">
+              <h3>Tênis Nike Free Metcon 6 Feminino</h3>
+              <p><b style="color: red;">R$ 949,99 no Pix</b><br><s>R$ 999,99</s> <br>ou <b style="color: red;">R$ 999,99</b> em até 10x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+       </article>
+
+       <article class="produto nike" data-nome="camisa nike corinthians">
+            <img src="img/camisa16.png" alt=" Camisa 16">
+              <h3>Camisa Nike Corinthians II 2025/26 Torcedora Pro Feminina</h3>
+              <p><b style="color: red;">R$ 332,99 no Pix</b><br><s>R$ 349,99</s> <br>ou <b style="color: red;">R$ 349,99</b> em até 5x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+        </article>
+
+       <article class="produto nike" data-nome="macacao nike Dri-Fit">
+            <img src="img/macacao1.png" alt=" Macacão 1">
+              <h3>Macacão Nike Dri-FIT Air Brasil Feminino</h3>
+              <p><b style="color: red;">R$ 369,99 no Pix</b><br><s>R$ 429,99</s> <br>ou <b style="color: red;">R$ 389,99</b> em até 4x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+       </article>
+            
+       <article class="produto nike" data-nome="mochila nike Sportswear"> 
+            <img src="img/bag2.png" alt=" Bag 2">
+              <h3>Mochila Nike Sportswear Futura 365 Feminina</h3>
+              <p><b style="color: red;">R$ 284,99 no Pix</b><br><s>R$ 299,99</s> <br>ou <b style="color: red;">R$ 299,99</b> em até 3x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+       </article>
+
+       <article class="produto nike" data-nome="mochila nike mini Futura">
+            <img src="img/bag3.png" alt=" Bag 3">
+              <h3>Mochila Nike Mini Futura Feminina</h3>
+              <p><b style="color: red;">R$ 169,99 no Pix</b><br><s>R$ 299,99</s> <br>ou <b style="color: red;">R$ 179,99</b> em até 2x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+        </article>
+      
+      <article class="produto nike" data-nome="tenis nike Downshifter">
+            <img src="img/tenis49.png" alt=" Tenis 49">
+              <h3>Tênis Nike Downshifter 13 Feminino</h3>
+              <p><b style="color: red;">R$ 113,99 no Pix</b><br><s>R$ 129,99</s> <br>ou <b style="color: red;">R$ 119,99</b> em até 1x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+      </article>
+
+      <article class="produto nike" data-nome="meia nike">
+            <img src="img/meia2.png" alt=" Meia 2">
+              <h3>Meia Nike Everyday Cushioned (3 Pares) Unissex</h3>
+              <p><b style="color: red;">R$ 113,99 no Pix</b><br><s>R$ 129,99</s> <br>ou <b style="color: red;">R$ 119,99</b> em até 1x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+       </article>
+
+       <article class="produto nike" data-nome="tenis nike court vision">
+            <img src="img/tenis50.png" alt=" Tenis 50">
+              <h3>Tênis Nike Court Vision Low Next Nature Feminino</h3>
+              <p><b style="color: red;">R$ 399,99 no Pix</b><br><s>R$ 599,99</s> <br>ou <b style="color: red;">R$ 421,99</b> em até 5x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+        </article>
+
+       <article class="produto nike" data-nome="chinelo nike victori">
+            <img src="img/chinelo4.png" alt=" Chinelo 4">
+              <h3>Chinelo Nike Victori One Feminino</h3>
+              <p><b style="color: red;">R$ 180,99 no Pix</b><br><s>R$ 249,99</s> <br>ou <b style="color: red;">R$ 189,99</b> em até 2x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+      </article>
+
+       <article class="produto adidas" data-nome="tenis adidas Forum2000">
+            <img src="img/tenis51.png" alt=" Tenis 51">
+              <h3>Tênis Adidas Forum2000</h3>
+              <p><b style="color: red;">R$ 799,99 no Pix</b><br><s>R$ 999,99</s> <br>ou <b style="color: red;">R$ 999,99</b> em até 10x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+        </article>
+
+       <article class="produto adidas" data-nome="tenis adidas Supernova">
+            <img src="img/tenis52.png" alt=" Tenis 52">
+              <h3>Tênis Adidas Supernova Stride 2.0 Running</h3>
+              <p><b style="color: red;">R$ 799,99 no Pix</b><br><s>R$ 899,99</s> <br>ou <b style="color: red;">R$ 899,99</b> em até 7x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+       </article>
+
+       <article class="produto adidas" data-nome="chinelo adidas Adilette">
+            <img src="img/chinelo5.png" alt=" Chinelo 5">
+              <h3>Chinelo Adidas Adilette Aqua</h3>
+              <p><b style="color: red;">R$ 149,99 no Pix</b><br><s>R$ 199,99</s> <br>ou <b style="color: red;">R$ 189,99</b> em até 2x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+       </article>
+
+        <article class="produto adidas" data-nome="meia adidas Trefoil">
+            <img src="img/meia4.png" alt=" Meia 4">
+              <h3>Meia Adidas Trefoil Soquete - 3 Pares (UNISSEX)</h3>
+              <p><b style="color: red;">R$ 59,99 no Pix</b><br><s>R$ 99,99</s> <br>ou <b style="color: red;">R$ 79,99</b> em até 2x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+         </article>
+      </div>
+    
+      <footer>
+          <p><img src="img/Fa-Team-Fontawesome-FontAwesome-Copyright.512.png" alt="Direitos reservados do site" width="10px">
+          2025 AC Store. Todos os direitos reservados.</p>
+      </footer>
+
+    <script src="script.js"></script>
+  </body>
+  </html>

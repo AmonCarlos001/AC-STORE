@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>AC Store. Step By Step.</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="img/Logo AC.jpg" alt="Logo AC Store">
+    </div>
+    
+    <div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="masculino.html">Masculino</a></li>
+            <li><a href="feminino.html">Feminino</a></li>
+            <li><a href="infantil.html">Infantil</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+    </div>
+
+      <div class="pesquisa"> <!-- Campo da barra de pesquisa -->
+      <input type="text" id="campo-busca" placeholder="Buscar produtos...">
+
+      <button id="botao-buscar"> <!-- Botão para pesquisar-->
+        Pesquisar
+        <img src="img/Fa-Team-Fontawesome-FontAwesome-Magnifying-Glass.512.png" alt="Lupa" width="9px">
+        </button>
+      </div>
+  </header>
+
+  <main>
+    <section class="banner"> <!-- Espaço do Banner-->
+      <div class="paragrafo-banner"> <!-- Escrita do banner-->
+        <p><b>Nova camisa do Corinthians inspirada no mundial de 2000.</b></p>
+        <img src="img/banner.png" alt="Banner Corinthians">
+        <button id="botao-ver-camisa" class="botao-camisa">Adicionar ao Carrinho</button> <!-- Botão "Adicionar ao carrinho"-->
+      </div>
+    </section>
+
+    <hr><br>
+
+    <section>
+            <h2 style="margin: 30px;">Produtos em Destaque:</h2><br>
+
+            <div class="produtos">
+
+                
+              <article class="produto nike" data-nome="Nike Dunk Low Retro PRM">
+                    <img src="img/tenis1.png" alt="Tênis Modelo 1">
+                    <h3>Tênis Nike Dunk Low Retro PRM</h3>
+                    <p><b style="color: red;">R$ 949,99 no Pix</b><br><s>R$ 999,99</s> 5% off <br>ou <b style="color: red;">R$ 999,99</b> em até 12x sem juros</p>
+                    <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+              </article>
+
+                    <br><br>
+
+                    <article class="produto" data-nome="Nike Air Max Plus OG">
+                    <img src="img/tenis2.png" alt="Tênis Modelo 2">
+                    <h3>Tênis Nike Air Max Plus OG</h3>
+                    <p><b style="color: red;">R$ 987,99 no Pix</b><br><s>R$ 1.299,99</s> 24% off <br>ou <b style="color: red;">R$ 1.039,99</b> em até 12x sem juros</p>
+                    <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+                    </article>
+
+                    <br><br>
+
+              <article class="produto" data-nome="Nike Air Jordan 1 SE Infatil">
+                    <img src="img/tenis3.png" alt="Tênis Modelo 3">
+                    <h3>Tênis Nike Air Jordan 1 SE Infantil</h3>
+                    <p><b style="color: red;">R$ 854,99 no Pix</b><br><s>R$ 1.299,99</s> 34% off <br>ou <b style="color: red;">R$ 899,99</b> em até 12x sem juros</p>
+                    <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+              </article>
+
+                    <br><br>
+
+              <article class="produto" data-nome="Nike Air Force">
+                    <img src="img/tenis6.png" alt="Tênis Modelo 6">
+                    <h3>Tênis Nike Air Force 1 Low '07 Feminino</h3>
+                    <p><b style="color: red;">R$ 759,99 no Pix</b><br><s>R$ 799,99</s> 5% off <br>ou <b style="color: red;">R$ 799,99</b> em até 10x sem juros</p>
+                    <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+              </article>
+
+                    <br><br>
+
+              <article class="produto" data-nome="Nike Air Max DN">
+                    <img src="img/tenis7.png" alt="Tênis Modelo 6">
+                    <h3>Tênis Nike Air Max DN Light Lemon Twist</h3>
+                    <p><b style="color: red;">R$ 1.282,50 no Pix</b><br><s>R$ 1.349,99</s> 5% off <br>ou <b style="color: red;">R$ 1.299,99</b> em até 10x sem juros</p>
+                    <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+              </article>
+                    
+                    <br><br>
+
+              <article class="produto" data-nome="Nike Air Zoom Pegasus 40">
+                    <img src="img/tenis9.png" alt="Tênis Modelo 9">
+                    <h3>Tênis Nike Air Zoom Pegasus 40 Infantil</h3>
+                    <p><b style="color: red;">R$ 759,99 no Pix</b><br><s>R$ 799,99</s> 5% off <br>ou <b style="color: red;">R$ 799,99</b> em até 11x sem juros</p>
+                    <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+              </article>
+
+                    <br><br>
+
+              <article class="produto" data-nome="Chinelo Jordan">
+                    <img src="img/chinelo1.png" alt="Chinelo Modelo 1">
+                    <h3>Chinelo Jordan Play Masculino</h3>
+                    <p><b style="color: red;">R$ 237,49 no Pix</b><br><s>R$ 349,99</s> 32% off <br>ou <b style="color: red;">R$ 249,99</b> em até 3x sem juros</p>
+                    <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+              </article>
+                    <br><br>
+
+              <article class="produto" data-nome="Adidas Campus">
+                    <img src="img/tenis4.png" alt="Tênis Modelo 4">
+                    <h3>Tênis Adidas Campus 00s</h3>
+                    <p><b style="color: red;">R$ 599,99 no Pix</b><br><s>R$ 749,99</s> 20% off <br>ou <b style="color: red;">R$ 699,99</b> em até 12x sem juros</p>
+                    <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+              </article>
+
+                    <br><br>
+
+              <article class="produto" data-nome="Adidas Samba">
+                    <img src="img/tenis5.png" alt="Tênis Modelo 5">
+                    <h3>Tênis Adidas Samba OG</h3>
+                    <p><b style="color: red;">R$ 699,99 no Pix</b><br><s>R$ 749,99</s> 20% off <br>ou <b style="color: red;">R$ 799,99</b> em até 12x sem juros</p>
+                    <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+              </article>
+
+                    <br><br>
+
+              <article class="produto" data-nome="Adidas Samba XLG">
+                    <img src="img/tenis10.png" alt="Tênis Modelo 10">
+                    <h3>Tênis Adidas Samba XLG</h3>
+                    <p><b style="color: red;">R$ 799,99 no Pix</b><br><s>R$ 899,99</s> 17% off <br>ou <b style="color: red;">R$ 849,99</b> em até 12x sem juros</p>
+                    <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+              </article>
+
+                    <br><br>  
+
+              <article class="produto" data-nome="Adidas Mercedes">
+                    <img src="img/tenis8.png" alt="Tênis Modelo 8">
+                    <h3>Tênis Adidas Vl Court Base Mercedes</h3>
+                    <p><b style="color: red;">R$ 499,99 no Pix</b><br><s>R$ 599,99</s> 17% off <br>ou <b style="color: red;">R$ 549,99</b> em até 12x sem juros</p>
+                    <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+              </article>
+                    
+                    <br><br>
+
+              <article class="produto" data-nome="Adidas Megaride">
+                    <img src="img/tenis11.png" alt="Tênis Modelo 11">
+                    <h3>Tênis Adidas Megaride</h3>
+                    <p><b style="color: red;">R$ 1.499,99 no Pix</b><br><s>R$ 1.599,99</s> 17% off <br>ou <b style="color: red;">R$ 1.549,99</b> em até 12x sem juros</p>
+                    <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+              </article>
+                    
+                    <br><br>
+
+              <article class="produto" data-nome="Adidas Advantage">
+                    <img src="img/tenis12.png" alt="Tênis Modelo 12">
+                    <h3>Tênis Adidas Advantage Base 2.0</h3>
+                    <p><b style="color: red;">R$ 199,99 no Pix</b><br><s>R$ 299,99</s> 17% off <br>ou <b style="color: red;">R$ 149,99</b> em até 12x sem juros</p>
+                    <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+              </article>
+                    
+                    <br><br>
+
+              <article class="produto" data-nome="Adidas VL Court Bold">
+                    <img src="img/tenis13.png" alt="Tênis Modelo 13">
+                    <h3>Tênis Adidas VL Court Bold</h3>
+                    <p><b style="color: red;">R$ 449,99 no Pix</b><br><s>R$ 549,99</s> 17% off <br>ou <b style="color: red;">R$ 499,99</b> em até 12x sem juros</p>
+                    <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+              </article>
+                    
+                    <br><br>
+
+              <article class="produto" data-nome="Puma Suede XL">
+                    <img src="img/tenis14.png" alt="Tênis Modelo 14">
+                    <h3>Tênis Puma Suede XL</h3>
+                    <p><b style="color: red;">R$ 599,99 no Pix</b><br><s>R$ 699,99</s> 17% off <br>ou <b style="color: red;">R$ 649,99</b> em até 12x sem juros</p>
+                    <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+              </article>
+                    
+                    <br><br>
+
+              <article class="produto" data-nome="Puma Wired Run Kids">
+                    <img src="img/tenis15.png" alt="Tênis Modelo 15">
+                    <h3>Tênis Puma Wired Run Kids</h3>
+                    <p><b style="color: red;">R$ 284,99 no Pix</b><br><s>R$ 299,99</s> 5% off <br>ou <b style="color: red;">R$ 299,99</b> em até 10x sem juros</p>
+                    <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+               </article>
+                    
+                    <br><br>
+
+              <article class="produto" data-nome="Puma Caven 2.0 BDP">
+                    <img src="img/tenis16.png" alt="Tênis Modelo 16">
+                    <h3>Tênis Puma Caven 2.0 BDP</h3>
+                    <p><b style="color: red;">R$ 379,99 no Pix</b><br><s>R$ 399,99</s> 5% off <br>ou <b style="color: red;">R$ 399,99</b> em até 10x sem juros</p>
+                    <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+               </article>
+                    
+                    <br><br>
+
+              <article class="produto" data-nome="Puma Slipstre">
+                    <img src="img/tenis17.png" alt="Tênis Modelo 17">
+                    <h3>Tênis Puma Slipstream</h3>
+                    <p><b style="color: red;">R$ 522,40 no Pix</b><br><s>R$ 549,99</s> 5% off <br>ou <b style="color: red;">R$ 549,99</b> em até 10x sem juros</p>
+                    <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+               </article>
+                    
+                    <br><br>
+
+              <article class="produto" data-nome="Puma Suede VTG Neverworn">
+                    <img src="img/tenis18.png" alt="Tênis Modelo 18">
+                    <h3>Tênis Puma Suede VTG Neverworn III</h3>
+                    <p><b style="color: red;">R$ 427,49 no Pix</b><br><s>R$ 499,99</s> 5% off <br>ou <b style="color: red;">R$ 449,99</b> em até 10x sem juros</p>
+                    <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+              </article>
+                    
+                    <br><br>
+
+             <article class="produto" data-nome="Puma PWR Hybrid">
+                    <img src="img/tenis19.png" alt="Tênis Modelo 19">
+                    <h3>Tênis Puma PWR Hybrid Feminino</h3>
+                    <p><b style="color: red;">R$ 569,99 no Pix</b><br><s>R$ 583,99</s> 17% off <br>ou <b style="color: red;">R$ 599,99</b> em até 10x sem juros</p>
+                    <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+              </article>
+                    
+                    <br><br>
+                    
+            <article class="produto" data-nome="Puma Catarina BDP">
+                    <img src="img/tenis20.png" alt="Tênis Modelo 20">
+                    <h3>Tênis Puma Carina BDP - Feminino</h3>
+                    <p><b style="color: red;">R$ 313,49 no Pix</b><br><s>R$ 399,99</s> 22% off <br>ou <b style="color: red;">R$ 329,99</b> em até 4x sem juros</p>
+                    <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+            </article>       
+            </div>
+        </section>
+    </main>
+
+          <footer>
+            <p><img src="img/Fa-Team-Fontawesome-FontAwesome-Copyright.512.png" alt="Direitos reservados do site" width="10px">
+              2025 AC Store. Todos os direitos reservados.</p>
+          </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

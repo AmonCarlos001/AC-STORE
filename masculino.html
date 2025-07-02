@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>AC Store. Step By Step.</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="img/Logo AC.jpg" alt="Logo AC Store">
+    </div>
+    
+    <div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="masculino.html">Masculino</a></li>
+            <li><a href="feminino.html">Feminino</a></li>
+            <li><a href="infantil.html">Infantil</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+    </div>
+
+      <div class="pesquisa"> <!-- Campo da barra de pesquisa -->
+      <input type="text" id="campo-busca" placeholder="Buscar produtos...">
+
+      <button id="botao-buscar"> <!-- Botão para pesquisar-->
+        Pesquisar
+        <img src="img/Fa-Team-Fontawesome-FontAwesome-Magnifying-Glass.512.png" alt="Lupa" width="9px">
+      </button>
+  </div>
+  </header>
+
+    <div class="botao-voltar">
+      <a href="index.html">
+      <img src="img/Icons8-Ios7-Arrows-Back.512.png" alt="Voltar" width="15px">
+      Voltar
+      </a>
+    </div>
+    <hr>
+
+    <div class="nav-homem">
+      <h1>Masculino</h1>
+    </div>
+    <hr>
+  
+
+    <div id="card-marca">
+      <button data-marca="adidas" class="marca">
+        <p><b>Adidas</b></p>
+        <img src="img/adidas.jpg" alt="Adidas">
+     </button>
+
+      <button data-marca="nike" class="marca">
+        <p><b>Nike</b></p>
+        <img src="img/nike.png" alt="Nike">
+      </button>
+
+      <button data-marca="puma" class="marca">
+        <p><b>Puma</b></p>
+        <img src="img/puma.png" alt="Puma">
+      </button>
+  </div>
+
+    <hr><br>
+
+    <div class="produtos">
+
+        <article class="produto nike" data-nome="Camisa Nike Corinthians">
+          <img src="img/camisa1.png" alt="Camisa Modelo 1">
+              <h3>Camisa Nike Corinthians II 2025/26 Jogador Masculina</h3>
+              <p><b style="color: red;">R$ 664,99 no Pix</b><br><s>R$ 699,99</s> 5% off <br>ou <b style="color: red;">R$ 699,99</b> em até 8x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+        </article>
+
+         <article class="produto nike" data-nome="Jaqueta Corinthians">
+            <img src="img/camisa2.png" alt="Camisa Modelo 2">
+              <h3>Jaqueta Nike Corinthians Hino Academy Pro Masculina</h3>
+              <p><b style="color: red;">R$ 664,99 no Pix</b><br><s>R$ 699,99</s> 5% off <br>ou <b style="color: red;">R$ 699,99</b> em até 8x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+          </article>
+
+          <article class="produto nike" data-nome="shorts nike">
+            <img src="img/bermuda1.png" alt="Bermuda Modelo 1">
+              <h3>Shorts Nike Dri-FIT Totality Masculino</h3>
+              <p><b style="color: red;">R$ 113,99 no Pix</b><br><s>R$ 179,99</s> 37% off <br>ou <b style="color: red;">R$ 119,99</b> em até 1x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+           </article>
+
+          <article class="produto nike" data-nome="camisa nike Dri-Fit">
+            <img src="img/camisa3.png" alt="Camisa Modelo 3">
+              <h3>Camisa Nike Dri-Fit Uniformes</h3>
+              <p><b style="color: red;">R$ 75,99 no Pix</b><br><s>R$ 129,99</s> 42% off <br>ou <b style="color: red;">R$ 79,99</b> em até 1x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+          </article>
+
+          <article class="produto nike" data-nome="calça nike Club">
+            <img src="img/calca1.png" alt=" Calça Modelo 1">
+              <h3>Calça Nike Club Knit Masculina</h3>
+              <p><b style="color: red;">R$ 189,99 no Pix</b><br><s>R$ 349,99</s> 43% off <br>ou <b style="color: red;">R$ 199,99</b> em até 2x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+          </article>
+
+          <article class="produto nike" data-nome="camisa barcelona">
+            <img src="img/camisa4.png" alt=" Camisa Modelo 4">
+              <h3>Camisa Nike Barcelona II 2024/25 Torcedor Pro Masculina</h3>
+              <p><b style="color: red;">R$ 379,99 no Pix</b><br><s>R$ 399,99</s> 5% off <br>ou <b style="color: red;">R$ 399,99</b> em até 5x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+           </article>
+
+          <article class="produto nike" data-nome="camiseta nike pro Dri-FIT">
+            <img src="img/camisa5.png" alt="Camisa Modelo 5">
+              <h3>Camiseta Nike Pro Dri-FIT Masculina</h3>
+              <p><b style="color: red;">R$ 132,99 no Pix</b><br><s>R$ 229,99</s> 42% off <br>ou <b style="color: red;">R$ 139,99</b> em até 1x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+           </article>
+      
+          <article class="produto nike" data-nome="polo nike rafa nadal">
+            <img src="img/camisa6.png" alt="Camisa Modelo 6">
+              <h3> Polo Nike Rafa Nadal Masculina</h3>
+              <p><b style="color: red;">R$ 479,99 no Pix</b><br><s>R$ 499,99</s> 5% off <br>ou <b style="color: red;">R$ 499,99</b> em até 6x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+          </article>
+
+          <article class="produto nike" data-nome="tênis nike court vision">
+            <img src="img/tenis21.png" alt="Tenis Modelo 21">
+              <h3>Tênis Nike Court Vision Low Next Nature Masculino</h3>
+              <p><b style="color: red;">R$ 379,99 no Pix</b><br><s>R$ 599,99</s> 37% off <br>ou <b style="color: red;">R$ 399,99</b> em até 5x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+            </article>
+      
+          <article class="produto nike" data-nome="tênis nike revolution">
+            <img src="img/tenis22.png" alt="Tenis Modelo 22">
+              <h3>Tênis Nike Revolution 7 Masculino</h3>
+              <p><b style="color: red;">R$ 299,99 no Pix</b><br><s>R$ 399,99</s> 25% off <br>ou <b style="color: red;">R$ 315,78</b> em até 3x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+           </article>
+
+          <article class="produto adidas" data-nome="adidas samba">
+            <img src="img/tenis23.png" alt="Tenis Modelo 23">
+              <h3>Tênis Adidas Samba XLG</h3>
+              <p><b style="color: red;">R$ 799,99</b><br> em até 10x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+          </article>
+
+         <article class="produto adidas" data-nome="tênis adidas jabbar og">
+            <img src="img/tenis24.png" alt="Tenis Modelo 24">
+              <h3>Tênis Adidas Jabbar OG Royal Blue Low</h3>
+              <p><b style="color: red;">R$ 699,99</b><br> em até 8x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+          </article>
+
+          <article class="produto adidas" data-nome="camiseta adidas Chavarria">
+            <img src="img/camisa7.png" alt="Camisa Modelo 7">
+              <h3>Camiseta Adidas Chavarria assinatura</h3>
+              <p><b style="color: red;">R$ 599,99</b><br> em até 7x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+         </article>
+
+           <article class="produto adidas" data-nome="Corta-Vento adidas">
+            <img src="img/camisa8.png" alt="Camisa Modelo 8">
+              <h3>Corta-Vento Adidas always Wind</h3>
+              <p><b style="color: red;">R$ 799,99</b><br> em até 10x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+           </article>
+
+          <article class="produto adidas" data-nome="adidas samba 62">
+            <img src="img/tenis25.png" alt="Tenis Modelo 25">
+              <h3>Tênis Adidas Samba 62</h3>
+              <p><b style="color: red;">R$ 999,99</b><br> em até 10x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+          </article>
+            
+         <article class="produto adidas" data-nome="camisa adidas G3X">
+            <img src="img/camisa9.png" alt="Camisa Modelo 9">
+              <h3>Camisa Adidas G3X</h3>
+              <p><b style="color: red;">R$ 299,99</b><br> em até 3x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+          </article>
+
+           <article class="produto adidas" data-nome="tenis adidas anthony edwards">
+              <img src="img/tenis26.png" alt="Modelo Modelo 26">
+              <h3>Tênis Adidas Anthony Edwards 1 Low</h3>
+              <p><b style="color: red;">R$ 899,99</b><br> em até 10x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+            </article>
+
+          <article class="produto adidas" data-nome="tenis adidas forum low cl">
+            <img src="img/tenis27.png" alt="Tenis Modelo 27">
+              <h3>Tênis Adidas Forum Low CL</h3>
+              <p><b style="color: red;">R$ 799,99</b><br> em até 10x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+          </article>
+
+          <article class="produto puma" data-nome="tenis puma RS-X">
+            <img src="img/tenis28.png" alt="Tenis Modelo 28">
+              <h3>Tênis Puma RS-X 3D</h3>
+              <p><b style="color: red;">R$ 399,99 no Pix</b><br><s>R$ 599,99</s> <br>ou <b style="color: red;">R$ 399,99</b> em até 10x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+           </article>
+
+         <article class="produto puma" data-nome="tenis puma veritana Sentient">
+            <img src="img/tenis29.png" alt="Tenis Modelo 29">
+              <h3>Tênis Puma Veritana Sentient Unissex</h3>
+              <p><b style="color: red;">R$ 799,99 no Pix</b><br><s>R$ 999,99</s> <br>ou <b style="color: red;">R$ 849,99</b> em até 10x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+          </article>
+
+        <article class="produto puma" data-nome="camiseta puma MMQ">
+            <img src="img/camisa10.png" alt="Camisa Modelo 10">
+              <h3>Camiseta Puma MMQ</h3>
+              <p><b style="color: red;">R$ 299,99 no Pix</b><br><s>R$ 349,99</s> <br>ou <b style="color: red;">R$ 219,99</b> em até 5x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+          </article>
+
+        <article class="produto puma" data-nome="tenis puma caven 2.0">
+            <img src="img/tenis32.png" alt=" Tenis 32">
+              <h3>Tênis Puma Caven 2.0 Retro Club</h3>
+              <p><b style="color: red;">R$ 399,99 no Pix</b><br><s>R$ 449,99</s> <br>ou <b style="color: red;">R$ 379,99</b> em até 10x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+          </article>
+
+        <article class="produto puma" data-nome="tenis puma Slipstream">
+            <img src="img/tenis31.png" alt=" Tenis 31">
+              <h3>Tênis Puma Slipstream lth</h3>
+              <p><b style="color: red;">R$ 449,99 no Pix</b><br><s>R$ 549,99</s> <br>ou <b style="color: red;">R$ 427,99</b> em até 10x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+        </article>
+
+        <article class="produto puma" data-nome="camisa puma neymar jr">
+            <img src="img/camisa11.png" alt=" Camisa 11">
+              <h3>Camisa Puma Neymar Jr Creativity Football Masculina</h3>
+              <p><b style="color: red;">R$ 299,99 no Pix</b><br><s>R$ 349,99</s> <br>ou <b style="color: red;">R$ 219,99</b> em até 5x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+        </article>
+
+        <article class="produto puma" data-nome="camisa puma portugual">
+            <img src="img/camisa12.png" alt=" Camisa 12">
+              <h3>Camisa de Treino Portugal Masculina</h3>
+              <p><b style="color: red;">R$ 299,99 no Pix</b><br><s>R$ 349,99</s> <br>ou <b style="color: red;">R$ 219,99</b> em até 5x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+        </article>
+
+       <article class="produto puma" data-nome="tenis puma Basket Classic">
+            <img src="img/tenis30.png" alt=" Tenis 30">
+              <h3>Tênis Puma Basket Classic XXI</h3>
+              <p><b style="color: red;">R$ 299,99 no Pix</b><br><s>R$ 449,99</s> <br>ou <b style="color: red;">R$ 349,99</b> em até 10x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+        </article>
+            
+        <article class="produto puma" data-nome="bone puma preto">
+            <img src="img/bone1.png" alt="Boné 1">
+              <h3>Boné Puma Aba Curva ESS ELEVATED</h3>
+              <p><b style="color: red;">R$ 139,99 no Pix</b><br><s>R$ 199,99</s> <br>ou <b style="color: red;">R$ 179,99</b> em até 5x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+        </article>
+
+       <article class="produto puma" data-nome="bone puma branco">
+            <img src="img/bone2.png" alt="Boné 2">
+              <h3>Boné Puma ESS No.1 Logo Baseball</h3>
+              <p><b style="color: red;">R$ 99,99 no Pix</b><br><s>R$ 199,99</s> <br>ou <b style="color: red;">R$ 119,99</b> em até 5x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+        </article>
+
+         <article class="produto nike" data-nome="meia nike branca">
+            <img src="img/meia1.png" alt="Meia 1">
+              <h3>Meia Nike Everyday Cushioned (3 Pares) Unissex</h3>
+              <p><b style="color: red;">R$ 113,99 no Pix</b><br><s>R$ 129,99</s> <br>ou <b style="color: red;">R$ 119,99</b> em até 1x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+         </article>
+
+        <article class="produto nike" data-nome="meia nike preta">
+            <img src="img/meia2.png" alt="Meia 2">
+              <h3>Meia Nike Everyday Cushioned (3 Pares) Unissex</h3>
+              <p><b style="color: red;">R$ 113,99 no Pix</b><br><s>R$ 129,99</s> <br>ou <b style="color: red;">R$ 119,99</b> em até 1x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+         </article>
+
+        <article class="produto nike" data-nome="bone nike ESS preto">
+            <img src="img/bone3.png" alt="Boné 3">
+              <h3>Boné Nike ESS No.1 Logo Baseball</h3>
+              <p><b style="color: red;">R$ 170,99 no Pix</b><br><s>R$ 179,99</s> <br>ou <b style="color: red;">R$ 179,99</b> em até 2x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+         </article>
+
+        <article class="produto nike" data-nome="bone rafael nadal branco">
+            <img src="img/bone4.png" alt="Boné 4">
+              <h3>Boné Nike Rafael Nadal ESS No.1 Logo Baseball</h3>
+              <p><b style="color: red;">R$ 151,99 no Pix</b><br><s>R$ 199,99</s> <br>ou <b style="color: red;">R$ 159,99</b> em até 2x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+         </article>
+
+        <article class="produto adidas" data-nome="chinelo adidas Adilette">
+            <img src="img/chinelo3.png" alt="Chinelo 3">
+              <h3>Chinelo Adidas Adilette Aqua</h3>
+              <p><b style="color: red;">R$ 149,99 no Pix</b><br><s>R$ 199,99</s> <br>ou <b style="color: red;">R$ 199,99</b> em até 2x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+        </article>
+
+        <article class="produto adidas" data-nome="bolsa adidas SST">
+            <img src="img/bag1.png" alt=" Bag 1">
+              <h3>Bolsa Adidas SST Airliner adidas Originals</h3>
+              <p><b style="color: red;">R$ 349,99 no Pix</b><br><s>R$ 499,99</s> <br>ou <b style="color: red;">R$ 379,99</b> em até 5x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+        </article>
+
+        <article class="produto adidas" data-nome="chapeu adidas Bucket">
+            <img src="img/bone5.png" alt="Boné 5">
+              <h3>Chapéu Adidas Bucket Wabash</h3>
+              <p><b style="color: red;">R$ 179,99 no Pix</b><br><s>R$ 199,99</s> <br>ou <b style="color: red;">R$ 189,99</b> em até 2x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+        </article>
+
+        <article class="produto adidas" data-nome="bone adidas tiro League">
+            <img src="img/bone6.png" alt="Boné 6">
+              <h3>Boné Adidas Tiro League</h3>
+              <p><b style="color: red;">R$ 119,99 no Pix</b><br><s>R$ 149,99</s> <br>ou <b style="color: red;">R$ 129,99</b> em até 2x sem juros</p>
+              <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+        </article>
+            </div>
+
+     <footer>
+          <p><img src="img/Fa-Team-Fontawesome-FontAwesome-Copyright.512.png" alt="Direitos reservados do site" width="10px">
+          2025 AC Store. Todos os direitos reservados.</p>
+      </footer>
+
+     <script src="script.js"></script>
+  </body>
+  </html>

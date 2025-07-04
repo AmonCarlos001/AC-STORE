@@ -14,6 +14,12 @@ Este projeto foi desenvolvido com HTML5, CSS3 e JavaScript, com o objetivo de pr
 
 ---
 
+📸 Preview
+
+![AC-STORE](https://github.com/user-attachments/assets/9127283e-56c3-4500-8ca1-c83bc6e87499)
+
+--
+
 ## 📁 Estrutura do Projeto
 
 - `index.html`: Página inicial
